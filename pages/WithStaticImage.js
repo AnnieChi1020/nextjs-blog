@@ -1,9 +1,9 @@
 import Image from "next/image";
-import Image1 from "../public/image-1.png";
-import Image2 from "../public/image-2.png";
-import Image3 from "../public/image-3.png";
-import Image4 from "../public/image-4.png";
-import Image5 from "../public/image-5.png";
+import Image1 from "../public/image-6.png";
+import Image2 from "../public/image-7.png";
+import Image3 from "../public/image-8.png";
+import Image4 from "../public/image-9.png";
+import Image5 from "../public/image-10.png";
 
 export default function WithoutStaticImage() {
   return (
