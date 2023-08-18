@@ -9,5 +9,9 @@
     "next": "latest",
     "react": "18.2.0",
     "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@next/bundle-analyzer": "^13.4.18",
+    "webpack-bundle-analyzer": "^4.9.0"
   }
 }
