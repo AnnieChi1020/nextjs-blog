@@ -5,7 +5,7 @@ import Image3 from "../public/image-8.png";
 import Image4 from "../public/image-9.png";
 import Image5 from "../public/image-10.png";
 
-export default function WithoutStaticImage() {
+export default function WithStaticImage() {
   return (
     <div>
       <h1>WithStaticImage</h1>
