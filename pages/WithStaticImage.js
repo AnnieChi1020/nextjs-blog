@@ -1,6 +1,8 @@
 import Head from "next/head";
 import Image from "next/image";
-import FImage from "../public/create-course-image-static.png";
+import Image1 from "../public/static-image-1.png";
+import Image2 from "../public/static-image-2.png";
+import Image3 from "../public/static-image-3.png";
 
 export default function WithoutStaticImage() {
   return (
@@ -12,7 +14,9 @@ export default function WithoutStaticImage() {
 
       <main>
         <h1>WithStaticImage</h1>
-        <Image src={FImage} width={400} height={400} />
+        <Image src={Image1} width={600} height={600} />
+        <Image src={Image2} width={600} height={600} />
+        <Image src={Image3} width={600} height={600} />
       </main>
     </div>
   );
